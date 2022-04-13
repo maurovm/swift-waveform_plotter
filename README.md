@@ -41,3 +41,26 @@ Record video from thermal cameras such as the FLIR One.
 - [swift-pulse_ox_recorder](https://github.com/maurovm/swift-pulse_ox_recorder): 
 The main application (XCode, Settings.bundle, etc) to record time-series data 
 from devices that support Bluetooth Low Energy (BLE) protocol.
+
+## Plotting Examples
+
+The image below shows an example of plotting a sinusoidal waveform using the
+synthetic data generator in this moulde and running the
+[swift-waveform_plotter_example](https://github.com/maurovm/swift-waveform_plotter_example) sample application:
+
+
+<p align="center">
+    <kbd><img src="./doc/figures/sinusoidal_plot.png" alt="Patient information screen" width="500" border=1 /></kbd>
+</p>
+
+
+The image below is an example of the plotting the Photoplethysmogram (PPG)
+signal recorded from a pulse oximeter from the
+[swift-pulse_ox_recorder](https://github.com/maurovm/swift-pulse_ox_recorder)
+application:
+
+
+<p align="center">
+    <kbd><img src="./doc/figures/ble_nppg_detail_landscape.png" alt="Patient information screen" width="600" border=1 /></kbd>
+</p>
+
