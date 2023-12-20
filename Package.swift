@@ -5,7 +5,7 @@ import PackageDescription
 let package = Package(
     
     name      : "swift-waveform_plotter",
-    platforms : [ .iOS("15.5") ],
+    platforms : [ .iOS("17.2") ],
     products  :
         [
             .library(
